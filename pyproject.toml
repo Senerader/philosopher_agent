@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "philosopher-agent"
+version = "0.1.0"
+description = "File-first knowledge graph scaffold"
+requires-python = ">=3.8"
+dependencies = ["PyYAML>=5.3"]
+
+[tool.setuptools]
+packages = ["philosopher_agent"]
